@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+
+
+.top button{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(105, 36, 225);
+    color: white;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.top button a{
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, p, span, ul{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.container{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(105, 36, 225);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid rgb(105, 36, 225);
+
+}
+
+
+.left-container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 2rem;
+}
+
+
+.left-container h2{
+    color: lightgray;
+}
+
+
+
+.left-container h1{
+    font-size: 50px;
+}
+
+
+
+
+.right-container{
+    width: 70%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+
+.right-container h2{
+    font-size: 30px;
+}
+
+
+
+.right-container input{
+    width: 60%;
+    height: 50px;
+    border-radius: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(105, 36, 225);
+}
+
+
+
+.right-container button{
+    width: 50%;
+    height: 50px;
+    border-radius: 60px;
+    background-color: rgb(105, 36, 225);
+    color: white ;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+
+/* Introduction Styling */
+.intro-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro-container h2{
+    font-size: 40px;
+}
+
+
+.intro-select{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.intro-select ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+
+.intro-select ul a{
+    width: 400px;
+    height: 60px;
+    background-color:  rgb(105, 36, 225);
+    text-decoration: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+.intro-select ul a:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid rgb(105, 36, 225);
+}
+
+
+.intro-select ul a li{
+    list-style: none;
+}
+
+
+
+
+/* Comparison Operators */
+.comparison-container{
+    width: 450px;
+    height: 460px;
+    border: 2px solid darkgray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    gap: 3rem;
+    /* display: none; */
+}
+
+
+
+.comparison-container h2{
+    font-size: 35px;
+}
+
+
+
+.comparison-container h5{
+    position: absolute;
+    margin-top: 70px;
+    font-weight: 600;
+    color: red;
+}
+
+
+
+.comparison-container input, .comparison-container button{
+    width: 300px;
+    height: 50px;
+    border: 2px solid rgb(105, 36, 225);
+    text-decoration: none;
+    border-radius: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+.comparison-container button{
+    background-color: rgb(105, 36, 225);
+    border: none;
+    color: white;
+    padding-left: 0;
+}
+
+
+
+.comparison-main{
+    width: 750px;
+    height: 460px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    display: none ;
+}
+
+
+.comparison-main h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+#errortxt{
+    display: none;
+}
+
+
+
+
+
+.logical-container{
+    gap: 30px;
+}

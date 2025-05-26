@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Logical Operators</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; background-color: rgb(105, 36, 225);">
+    <div class="top">
+        <a href="Operators.html">
+            <button style="background-color: white; color: rgb(105, 36, 225);">&#10094;</button>
+        </a> 
+    </div>
+    <div 
+        class="comparison-container logical-container"
+        id="userform"
+        >
+        <h2>Welcome back.</h2>
+        <input 
+            type="text" 
+            placeholder="Enter your username"
+            id="usernameInput"
+            >
+
+        <input 
+            type="password" 
+            placeholder="Enter your password"
+            id="userpasswordInput"
+            >    
+        <h5 
+            id="errortxt"
+            style="margin-top: 150px;"
+        >Incorrect email address or password</h5>
+        <button onclick="userLogin()">Login</button>
+    </div>
+
+
+    <div class="comparison-main" id="comparisonMain">
+        <h2>Hello, <span id="mainusername"></span></h2>
+    </div>
+</body>
+<script src="LogicalComparison.js"></script>
+</html>
